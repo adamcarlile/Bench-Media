@@ -25,7 +25,7 @@ a:hover
 
 a:visited
 {
-	background-color:#5a0909;
+	background-color:#747474;
 }
 
 body
@@ -58,6 +58,7 @@ div.wrapper h1
 	background-image:url('../images/vertical_groove.gif');
 	background-position:right top;
 	background-repeat:repeat-y;
+	text-rendering: optimizeLegibility;
 }
 
 div.wrapper div#intro
@@ -85,4 +86,5 @@ div.wrapper div#intro p
 {
 	font-size:14px;
 	padding-bottom:10px;
+	line-height:18px;
 }
