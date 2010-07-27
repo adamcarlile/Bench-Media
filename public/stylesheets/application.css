@@ -1,0 +1,88 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+caption,th { text-align: left; }
+fieldset,img, abbr,acronym { border: 0; }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal; }
+ol,ul { list-style: none; }
+q:before,q:after { content: ''; }
+table { border-collapse: collapse; border-spacing: 0; }
+ul { list-style-type: none; }
+ul li { margin: 0 0 0.2em 0; padding: 0; }
+
+a
+{
+	background-color:#f49e3e;
+	color:#ffffff;
+	display:inline-block;
+	padding-left:2px;
+	padding-right:2px;
+	text-decoration:none;
+}
+
+a:hover
+{
+	background-color:#498a14;
+}
+
+a:visited
+{
+	background-color:#5a0909;
+}
+
+body
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	background-color:#ce6d00;
+	background-image:url('../images/wood_bg.jpg');
+	background-repeat:repeat-x;
+	background-position:top center;
+	padding-top:140px;
+	padding-bottom:140px;
+}
+
+div.wrapper
+{
+	margin:auto;
+	width:960px;
+}
+
+div.wrapper h1
+{
+	font-size:142px;
+	font-weight:bold;
+	letter-spacing:-8px;
+	width:480px;
+	line-height:135px;
+	text-shadow: #333333 0px -1px 0px;
+	float:left;
+	background-image:url('../images/vertical_groove.gif');
+	background-position:right top;
+	background-repeat:repeat-y;
+}
+
+div.wrapper div#intro
+{
+	width:480px;
+	float:left;
+}
+
+div.wrapper div#intro > *
+{
+	padding-left:80px;
+}
+
+div.wrapper div#intro h2
+{
+	padding-top:10px;
+	font-size:32px;
+	font-weight:bold;
+	letter-spacing:-2px;
+	margin-bottom:20px;
+	text-shadow: #333333 0px -1px 0px;
+}
+
+div.wrapper div#intro p
+{
+	font-size:14px;
+	padding-bottom:10px;
+}

@@ -1,0 +1,24 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 18:39:26) [GET]
+
+ActionController::RoutingError (No route matches "/styleseets/master.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 18:40:05) [GET]
+
+ActionController::RoutingError (No route matches "/styleseets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 18:40:08) [GET]
+
+ActionController::RoutingError (No route matches "/styleseets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
